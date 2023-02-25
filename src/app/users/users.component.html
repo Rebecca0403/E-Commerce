@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-lg-4" *ngFor="let user of users">
+    <div class="card" style="width: 18rem">
+      <!-- <img [src]="user.images[0]" class="card-img-top" alt="..." /> -->
+      <div class="card-body">
+        <h5 class="card-title">{{ user.login }}</h5>
+        <!-- <p class="card-text">Price :{{ user.price }}</p> -->
+
+        <p style="display: flex; align-items: center">Add To Cart &nbsp;</p>
+        <a href="#" class="btn btn-primary">Add to Cart</a>
+      </div>
+    </div>
+  </div>
+</div>
